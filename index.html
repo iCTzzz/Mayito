@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Para Mayito 🌸</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== AUDIO (agrega tu mp3 aquí) ========== -->
+  <!-- CAMBIAR MÚSICA: reemplaza "music.mp3" con el nombre de tu archivo de audio -->
+  <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- ========== PARTÍCULAS DE FONDO ========== -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ========== PÉTALOS ========== -->
+  <div id="petals-container"></div>
+
+  <!-- ========== PANTALLA DE INTRO ========== -->
+  <div id="intro-screen">
+    <div class="intro-content">
+      <div class="intro-glow"></div>
+      <p class="intro-subtitle">te lo dijeeeeeeeeeeee</p>
+      <h1 class="intro-title">mayitoooooo</h1>
+      <p class="intro-hint">te dije q haría una página nomás para ponerte cositas
+
+        IMPORTANTEEE: usa Chrome o algo así, no vayas a usar Safari, chica iPhone access
+      </p>
+      <button id="enter-btn" class="enter-button">
+        <span class="enter-btn-text">entrar</span>
+        <span class="enter-btn-icon">✦</span>
+      </button>
+    </div>
+    <div class="intro-flowers">
+      <span class="f1">🌸</span>
+      <span class="f2">🌺</span>
+      <span class="f3">🌷</span>
+      <span class="f4">🌸</span>
+      <span class="f5">🌹</span>
+    </div>
+  </div>
+
+  <!-- ========== TELÓN DE TRANSICIÓN ========== -->
+  <div id="curtain-left" class="curtain"></div>
+  <div id="curtain-right" class="curtain"></div>
+
+  <!-- ========== EXPERIENCIA PRINCIPAL ========== -->
+  <div id="main-experience" class="hidden">
+
+    <!-- Botón de música flotante -->
+    <button id="music-toggle" class="music-btn" title="Música">
+      <span id="music-icon">♪</span>
+    </button>
+
+    <!-- ========== TARJETA 1 ========== -->
+    <div class="card-scene" id="scene-1">
+      <div class="card glass-card">
+        <div class="card-deco top-deco">✦ ✦ ✦</div>
+        <!-- TARJETA 1 — texto fijo de bienvenida -->
+        <div class="card-text" id="typewriter-1">
+        </div>
+        <button class="continue-btn" onclick="nextScene(2)">
+          continuar <span class="btn-arrow">→</span>
+        </button>
+        <div class="card-deco bottom-deco">🌸</div>
+      </div>
+    </div>
+
+<div class="card-text" id="typewriter-1"></div>
+
+<!-- Imagen que aparece después del texto -->
+<div class="character-box hidden" id="character-box-1">
+  <img src="minion.png" alt="minion" class="character-img">
+</div>
+    <!-- ========== TARJETA 2 ========== -->
+    <div class="card-scene hidden" id="scene-2">
+      <div class="card glass-card">
+        <div class="card-deco top-deco">✦ ✦ ✦</div>
+        <!-- CAMBIAR TEXTO TARJETA 2 -->
+        <div class="card-text" id="typewriter-2">
+        </div>
+        <button class="continue-btn" onclick="nextScene('garden')">
+          continuar <span class="btn-arrow">→</span>
+        </button>
+        <div class="card-deco bottom-deco">🌷</div>
+      </div>
+    </div>
+
+    <!-- ========== ESCENA ESPECIAL: JARDÍN ========== -->
+    <div class="card-scene hidden" id="scene-garden">
+      <div class="garden-scene">
+        <div class="garden-light l1"></div>
+        <div class="garden-light l2"></div>
+        <div class="garden-light l3"></div>
+        <div class="garden-flowers">
+          <span class="gf gf1">🌸</span>
+          <span class="gf gf2">🌹</span>
+          <span class="gf gf3">🌷</span>
+          <span class="gf gf4">🌺</span>
+          <span class="gf gf5">🌸</span>
+          <span class="gf gf6">🌹</span>
+          <span class="gf gf7">🌷</span>
+          <span class="gf gf8">🌸</span>
+        </div>
+        <div class="garden-text-wrap">
+          <p class="garden-quote">te quiero mucho aunque TE BURLES</p>
+          <p class="garden-sub">y esta página tiene un virus q está detectando un color rojo a través de la cámara…</p>
+        </div>
+        <button class="continue-btn garden-btn" onclick="nextScene(3)">
+          continuar <span class="btn-arrow">→</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ========== TARJETA 3 ========== -->
+    <div class="card-scene hidden" id="scene-3">
+      <div class="card glass-card">
+        <div class="card-deco top-deco">✦ ✦ ✦</div>
+        <!-- CAMBIAR TEXTO TARJETA 3 -->
+        <div class="card-text" id="typewriter-3">
+        </div>
+        <button class="continue-btn" onclick="nextScene(4)">
+          continuar <span class="btn-arrow">→</span>
+        </button>
+        <div class="card-deco bottom-deco">🌺</div>
+      </div>
+    </div>
+
+    <!-- ========== TARJETA 4 ========== -->
+    <div class="card-scene hidden" id="scene-4">
+      <div class="card glass-card">
+        <div class="card-deco top-deco">✦ ✦ ✦</div>
+        <!-- CAMBIAR TEXTO TARJETA 4 -->
+        <div class="card-text" id="typewriter-4">
+        </div>
+        <button class="continue-btn" onclick="nextScene('final')">
+          Continuar <span class="btn-arrow">→</span>
+        </button>
+        <div class="card-deco bottom-deco">🌹</div>
+      </div>
+    </div>
+
+    <!-- ========== ESCENA FINAL ========== -->
+    <div class="card-scene hidden" id="scene-final">
+      <div class="final-scene">
+        <div class="final-glow"></div>
+        <h2 class="final-title">continuará... (yo modo suspenso)</h2>
+        <div class="countdown-wrap">
+          <div class="countdown-grid">
+            <div class="count-cell">
+              <span class="count-num" id="cd-days">--</span>
+              <span class="count-label">días</span>
+            </div>
+            <span class="count-sep">:</span>
+            <div class="count-cell">
+              <span class="count-num" id="cd-hours">--</span>
+              <span class="count-label">horas</span>
+            </div>
+            <span class="count-sep">:</span>
+            <div class="count-cell">
+              <span class="count-num" id="cd-mins">--</span>
+              <span class="count-label">minutos</span>
+            </div>
+            <span class="count-sep">:</span>
+            <div class="count-cell">
+              <span class="count-num" id="cd-secs">--</span>
+              <span class="count-label">segundos</span>
+            </div>
+          </div>
+        </div>
+        <!-- CAMBIAR FECHA: modifica el texto si quieres otra descripción -->
+        <p class="final-note">
+          aún habrá más cositas…<br />
+          peeeero esa fecha será el sig evento (así como en Fortnite, oye dile a Emilio q juguemos pls te quiero amor bechito muaqui muac).
+        </p>
+        <div class="final-flowers">
+          <span>🌸</span><span>🌹</span><span>🌷</span><span>🌺</span><span>🌸</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /main-experience -->
+
+  <script src="script.js"></script>
+</body>
+</html>
