@@ -65,12 +65,44 @@ agradezco que haya existido el momento preciso para que las cosas salieran a com
     mediaSrc: "panditas.jpg"
   },
   {
-    text: `[ fragmento 5 — este arreglo puede crecer todo lo que quieras ]`,
+    text: `y aquí voy a hacer una intromisión especial porque hace unos días tú me respondiste un mensajito, pero te dije que tenía una respuesta yo también. entonces no la puse, pero es el momento de ponerla.
+
+te prometo realmente que las cosas siempre, siempre y siempre van a estar bien.
+
+ahora bien, algo que tú me dijiste... tenías mucha razón. y es que no siempre va a ser así. eso es muy cierto. porque las cosas van a cambiar, va a haber días más pesaditos, más cansados, momentos donde simplemente las cosas no salgan como esperamos.
+
+pero quiero que tengas la tranquilidad de confiar plenamente en que, para estar bien, uno debe de caminar bien. y yo me siento muy feliz porque me siento a gusto caminando contigo, disfrutando cositas más chiquitas que quizá a cualquiera le podrían parecer algo tonto.
+
+una risa, un abrazo, que te burles, verte feliz... no tiene precio.
+
+y créeme que me hace tan feliz saber que tú estás tranquila, que estás a gusto. y, sobre todo, que tienes la certeza de que todo está bien.
+
+mi misión aquí es seguir esa brecha. seguir caminando contigo, paso a paso, sin prisa, pero siempre contigo.
+
+y gracias por confiar en mí. gracias por dejarme entrar.
+
+y, lo más importante, para hacer el cambiazo de humor, porque te quiero mucho y no quiero que nadie... bueno, a lo mejor no lo estás viendo, pero a mí se me salió una lagrimita escribiendo esto.
+
+pero el viernes vamos a ver los minions.
+
+te quiero mucho.
+`,
     mediaSlot: false,
     mediaSrc: null
   },
   {
-    text: `[ fragmento 6 — el último antes de llegar al dibujo final ]`,
+    text: `ahora, esta carta es curiosa porque tiene algo, pero creo que es algo muy específico que si lo logras encontrar, mis respetos, de verdad, mis respetos.
+
+te quiero mucho, preciosa, hermosa, lindota y cualquier otro adjetivo calificativo el cual yo pueda usar para escribir lo increíble que es poder tener ojos para apreciar cada una de tus cosas. y eso es loquito que tanto quiero.
+
+te quiero mucho, princesa.
+
+esa es una de las muchas y de las diferentes cosas que he encontrado, y que seguiré buscando y mejorando, para decirte hasta dónde te quiero.
+
+aunque la canción y las flores, flores, flores, flores, puede ser una pista esta parte. y ni siquiera lo vas a saber porque al estar escrito no hay ritmo, así que tú le vas a ir poniendo ritmo y voz a esta carta.
+
+pero, que si hasta dónde te quiero... no te sé decir.
+`,
     mediaSlot: true,
     mediaSrc: null
   }
