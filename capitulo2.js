@@ -104,7 +104,7 @@ aunque la canción y las flores, flores, flores, flores, puede ser una pista est
 pero, que si hasta dónde te quiero... no te sé decir.
 `,
     mediaSlot: true,
-    mediaSrc: null
+    mediaSrc: "brazo.jpg"
   }
 ];
 
