@@ -38,7 +38,17 @@ una vez más, estando aquí escribiendo un pensar para ti, pero en tu página, p
     mediaSrc: "perrito.png"
   },
   {
-    text: `[ fragmento 3 — sigue agregando tantos como quieras ]`,
+    text: `en verdad no miento cuando digo que te quiero tanto. sigo y seguiré sin encontrar palabras para poder describir lo feliz y tranquilo que me siento estando contigo.
+
+es curioso porque muchas veces yo, a lo largo del tiempo, he insistido en que la tranquilidad siempre tiene que estar con uno. y creo que es algo que has sabido de mí. pero algo que disfruto plenamente, y con lo que hoy me despierto y vivo los días sabiendo que es bonito, es poder compartir esa tranquilidad con alguien.
+
+me hace feliz saber que estás ahí. y, más allá de eso, que eres tú.
+
+y, por si fuera poco, saber que quizá no estaba tan errónea la idea que en algún momento tuve. si bien las cosas, como lo has mencionado tú también, no han salido al cien por ciento, me da gusto que haya habido, y que siga habiendo, el tiempo de reflexionar, querernos, abrazarnos, tenernos.
+
+gracias por darme un pedacito de tu corazón y por dejarme estar en las buenas, en las no tan buenas, cuando estás feliz, triste, enojada o molesta. gracias por permitirme estar. gracias por quererme.
+
+y no por el hecho de simplemente querer, sino porque me has hecho entender que, a veces, aunque no entendamos ciertas cosas, dentro de nosotros existe mucho amor.`,
     mediaSlot: false,
     mediaSrc: null
   },
