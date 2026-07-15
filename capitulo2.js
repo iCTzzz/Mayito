@@ -34,7 +34,7 @@ una vez más, estando aquí escribiendo un pensar para ti, pero en tu página, p
   {
     text: `[ fragmento 2 — pega aquí la siguiente parte ]`,
     mediaSlot: true,
-    mediaSrc: perrito.png
+    mediaSrc: "perrito.png"
   },
   {
     text: `[ fragmento 3 — sigue agregando tantos como quieras ]`,
