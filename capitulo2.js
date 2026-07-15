@@ -61,7 +61,7 @@ const LETTER_FRAGMENTS = [
 // CAMBIAR: sube tu archivo de audio junto a estos archivos y
 // pon aquí su nombre exacto (ej. "desde-que.mp3").
 // ============================================================
-const MUSIC_FILE = "desde-que.mp3";
+const MUSIC_FILE = "music2.mp3";
 
 // ============================================================
 // VARIABLES GLOBALES
