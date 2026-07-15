@@ -25,7 +25,9 @@
 // ============================================================
 const LETTER_FRAGMENTS = [
   {
-    text: `[ fragmento 1 — pega aquí el primer párrafo o idea de tu carta ]`,
+    text: `OÑAAAAA corazón, ola crayola, ola mi preciosa, te quiero mucho, mi rojito.
+
+una vez más, estando aquí escribiendo un pensar para ti, pero en tu página, porque sí, te recuerdo que tú tienes una página JKJAJAJKAJAKAJ.`,
     mediaSlot: false,
     mediaSrc: null
   },
