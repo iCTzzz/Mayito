@@ -32,7 +32,8 @@ una vez más, estando aquí escribiendo un pensar para ti, pero en tu página, p
     mediaSrc: null
   },
   {
-    text: `[ fragmento 2 — pega aquí la siguiente parte ]`,
+    text: `aquí haré un disclaimer, corazón. te extraño mucho, y ahora sí me siento como el perrito ese, el pug, porque, te extraño mucho,
+    mucho, mucho, mucho, mucho, mucho. ya quiero verte, abrazarte, darte besito, oler y ver esos rizos que tanto me gustan al igual q tus ojitos, y de verdad me gustan tanto, me encantan, me encantan tanto que...`,
     mediaSlot: true,
     mediaSrc: "perrito.png"
   },
