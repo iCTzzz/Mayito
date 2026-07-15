@@ -53,9 +53,16 @@ y no por el hecho de simplemente querer, sino porque me has hecho entender que, 
     mediaSrc: null
   },
   {
-    text: `[ fragmento 4 — aquí puedes contar otro recuerdo o pensamiento ]`,
+    text: `gracias por estar ahí, incluso no estando. gracias por escuchar, aunque a veces ni siquiera tenga que hablar. gracias por entenderme, aunque muchas veces yo no me entienda. gracias por estar calmada cuando muchas veces estoy alterado. gracias por darme un empujoncito cuando a veces necesito descansar. y gracias por dejarme descansar contigo.
+
+gracias por ser quien eres, tal cual, uno a uno. no cambio absolutamente nada. y mil gracias más por simplemente existir.
+
+le agradezco a quien le tenga que agradecer por, más allá de permitir que te encontrara en un camino muy extraño, haber hecho que las cosas coincidieran de una forma que, si te pones a pensar, no tiene nada de sentido.
+
+agradezco que haya existido el momento preciso para que las cosas salieran a como hayan salido, pero que hoy tú puedas leer esto.
+`,
     mediaSlot: true,
-    mediaSrc: null
+    mediaSrc: "panditas.jpg"
   },
   {
     text: `[ fragmento 5 — este arreglo puede crecer todo lo que quieras ]`,
