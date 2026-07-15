@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Capítulo Dos — Para Mayito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="capitulo2.css" />
+</head>
+<body>
+
+  <!-- Enlace de regreso al menú -->
+  <a href="menu.html" class="back-link">‹ menú</a>
+
+  <!-- ========== FONDO: CIELO, NUBES, PALOMAS, FLORES ========== -->
+  <div class="sky-bg">
+    <div class="sky-sun-glow"></div>
+    <span class="cloud c1">☁️</span>
+    <span class="cloud c2">☁️</span>
+    <span class="cloud c3">☁️</span>
+    <span class="cloud c4">☁️</span>
+    <span class="cloud c5">☁️</span>
+    <span class="bird b1">🕊️</span>
+    <span class="bird b2">🕊️</span>
+    <span class="bird b3">🕊️</span>
+  </div>
+  <div id="petals-container"></div>
+  <!-- Luces cálidas que suben: el "vuelo del amor" -->
+  <div id="love-lights"></div>
+
+  <!-- ========== MÚSICA (agrega tu mp3 aquí) ========== -->
+  <!-- CAMBIAR MÚSICA: el nombre del archivo se define en capitulo2.js -> MUSIC_FILE -->
+  <audio id="bg-music-2" loop></audio>
+  <button id="music-toggle-2" class="music-btn" title="Música">
+    <span id="music-icon-2">♪</span>
+  </button>
+
+  <!-- ========== PANTALLA DE ENTRADA ========== -->
+  <div id="intro-screen">
+    <div class="intro-content">
+      <p class="intro-eyebrow">capítulo dos</p>
+      <h1 class="intro-title">una carta para ti</h1>
+      <!-- CAMBIAR TEXTO: frase de bienvenida al capítulo dos -->
+      <p class="intro-hint">respira hondo y sigue el camino de las nubes.</p>
+      <button id="enter-btn" class="continue-btn">
+        comenzar <span class="btn-arrow">→</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ========== EXPERIENCIA (fragmentos generados por JS) ========== -->
+  <div id="experience" class="hidden">
+    <div id="fragments-root"><!-- los fragmentos de la carta se insertan aquí desde capitulo2.js --></div>
+
+    <!-- ========== ESCENA FINAL: EL DIBUJO ========== -->
+    <div class="letter-scene hidden" id="scene-drawing">
+      <div class="drawing-wrap">
+        <div class="drawing-frame">
+          <!--
+            CAMBIAR AQUÍ: cuando tengas tu dibujo listo,
+            1) sube el archivo de imagen junto a este HTML (ej. dibujo-final.png)
+            2) borra todo el bloque <div class="drawing-placeholder">...</div> de abajo
+            3) descomenta la línea <img> de aquí abajo y pon el nombre correcto del archivo
+
+            <img src="dibujo-final.png" alt="dibujo" class="drawing-img">
+          -->
+          <div class="drawing-placeholder">
+            <span class="drawing-icon">🖼️</span>
+            <p class="drawing-hint">aquí va tu dibujo</p>
+          </div>
+        </div>
+        <p class="drawing-caption">fin del capítulo dos</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Puntos de progreso -->
+  <div class="progress-dots hidden" id="progress-dots"></div>
+
+  <script src="capitulo2.js"></script>
+</body>
+</html>
